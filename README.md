@@ -1,3 +1,3 @@
-#rain_shader_test
+#love-shaders
 
-A rain shader I was testing out in love2D
+A repository with some shaders I've been testing out in LÖVE2D.
