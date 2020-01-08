@@ -10,7 +10,7 @@ function love.load()
 end
 
 function love.update(dt)
-    if math.random() < 0.1 then
+    if math.random() < 1 then
         drop_manager:addRandomDrop(current_time)
     end
     if current_frames%100 == 0 then
