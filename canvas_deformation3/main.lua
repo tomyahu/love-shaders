@@ -36,7 +36,6 @@ end
 function love.draw()
     love.graphics.setShader(shader)
 
-    --local screen = {love.graphics.getWidth( ), love.graphics.getHeight( ) }
     shader:send("in_points", unpack(in_points))
     shader:send("out_points", unpack(out_points))
 
